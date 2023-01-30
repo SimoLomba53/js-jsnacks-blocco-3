@@ -7,16 +7,15 @@ arrayVuoto = [
 
 debugger;
 
-let i = 0;
+let somma = 0;
 
 
 
-while (i > 50) {
-    const arrayVuoto = (prompt("Che numero devo aggiungere?"))[i];
-    console.log = arrayVuoto;
-    const somma = somma + arrayVuoto;
+while (somma < 50) {
+    const arrayVuoto = prompt("Che numero devo aggiungere?");
+    somma = parseInt(somma + arrayVuoto);
     console.log(somma);
-    i++;
+
 }
 
 
