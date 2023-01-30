@@ -9,10 +9,10 @@ console.log(maxValueRange);
 
 
 let i = 0;
-const randomNumber = Math.random();
+const randomNumber = (Math.random());
 console.log(randomNumber);
 
-while (minValueRange < i > maxValueRange) {
+while (i > minValueRange && i < maxValueRange) {
     const numbergenerate = randomNumber[i];
     console.log(numbergenerate);
     i++;
