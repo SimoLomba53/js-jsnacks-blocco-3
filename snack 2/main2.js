@@ -3,7 +3,7 @@
 
 arrayVuoto = [
 
-]
+];
 
 //let i = 0
 //let somma;
