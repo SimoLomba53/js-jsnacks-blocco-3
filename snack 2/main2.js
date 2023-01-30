@@ -9,11 +9,12 @@ let i = 0
 let somma;
 
 while (i < 50) {
-    arrayVuoto = prompt("Che numero devo aggiungere?")[i];
+    arrayVuoto = prompt("Che numero devo aggiungere?");
     console.log = arrayVuoto;
-    somma = somma + arrayVuoto;
+    somma = somma + arrayVuoto[i];
+    console.log(somma);
     i++;
 }
 
-console.log(somma);
+
 
