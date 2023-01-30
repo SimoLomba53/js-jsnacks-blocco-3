@@ -5,15 +5,14 @@ arrayVuoto = [
 
 ];
 
-//let i = 0
-//let somma;
 let somma;
+
 
 
 while (somma < 50) {
     arrayVuoto = parseint(prompt("Che numero devo aggiungere?"));
     console.log = arrayVuoto;
-    somma = somma + arrayVuoto;
+    const somma = somma + arrayVuoto;
     //somma = somma + arrayVuoto[i];
     //console.log(somma);
 }
