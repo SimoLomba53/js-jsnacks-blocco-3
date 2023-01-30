@@ -8,11 +8,11 @@ const maxValueRange = prompt("Qual'è il valore massimo?");
 console.log(maxValueRange);
 
 
-
+let i = 0;
 const randomNumber = Math.random();
 console.log(randomNumber);
 
-while (i < minValueRange && i > maxValueRange) {
+while (minValueRange < i > maxValueRange) {
     const numbergenerate = randomNumber[i];
     console.log(numbergenerate);
     i++;
