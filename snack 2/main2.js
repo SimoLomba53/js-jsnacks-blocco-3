@@ -5,19 +5,22 @@ arrayVuoto = [
 
 ];
 
-let somma;
+debugger;
+
+let i = 0;
 
 
 
-while (somma < 50) {
-    arrayVuoto = parseint(prompt("Che numero devo aggiungere?"));
+while (i > 50) {
+    const arrayVuoto = (prompt("Che numero devo aggiungere?"))[i];
     console.log = arrayVuoto;
     const somma = somma + arrayVuoto;
-    //somma = somma + arrayVuoto[i];
-    //console.log(somma);
+    console.log(somma);
+    i++;
 }
 
-console.log(somma);
+
+
 
 
 
